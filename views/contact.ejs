@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('header') %>
+  <body class="sub_page">
+    <%- include('navbar') %>
+    <!-- contact section -->
+    <section class="contact_section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 px-0">
+            <div class="form_container">
+              <div class="row">
+                <div class="col-lg-9 col-md-10 ml-auto">
+                  <h2>Enquire Now</h2>
+                  <form action="">
+                    <div>
+                      <input
+                        type="text"
+                        name="fullname"
+                        placeholder="Your Name"
+                      />
+                    </div>
+                    <div>
+                      <input
+                        type="text"
+                        name="number"
+                        placeholder="Phone Number"
+                      />
+                    </div>
+                    <div>
+                      <input name="email" type="email" placeholder="Email" />
+                    </div>
+                    <div>
+                      <input
+                        type="text"
+                        class="message-box"
+                        name="message"
+                        placeholder="Message"
+                      />
+                    </div>
+                    <div class="btn_box">
+                      <button>SEND</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 px-0">
+            <div class="img-box">
+              <img src="../public/images/contact-img.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end contact section -->
+
+    <%- include('footer') %>
+
+    <!-- jQery -->
+    <script
+      type="text/javascript"
+      src="../public/js/jquery-3.4.1.min.js"
+    ></script>
+    <!-- popper js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <!-- bootstrap js -->
+    <script type="text/javascript" src="../public/js/bootstrap.js"></script>
+  </body>
+</html>
